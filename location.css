@@ -230,7 +230,7 @@ body {
         margin-right: 40px;
     }
 }
-@media (max-width: 350px) {
+@media (max-width: 300px) {
     #location-svg {
         width: 20px;
         height: 20px;
@@ -240,6 +240,12 @@ body {
     }
     #description-detail {
         margin-left: 150px;
+    }
+    #detail-two {
+        width: 250px;
+    }
+    #footer-div-description {
+        width: 250px;
     }
     #footer-div-heading {
         margin-left: 70px;
