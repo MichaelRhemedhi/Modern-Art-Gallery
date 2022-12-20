@@ -6,9 +6,6 @@ body {
 #header {
     position: relative;
 }
-/* #header-image-div {
-    position: absolute;
-} */
 #button-div {
     position: absolute;
     top: 0;
@@ -198,7 +195,7 @@ body {
 @media (max-width: 650px) {
     #location-svg {
         width: 23px;
-        height: 30px;
+        height: 25px;
     }
     #main {
         display: flex;
@@ -231,5 +228,26 @@ body {
         margin-left: 52px;
         padding-top: 50px;
         margin-right: 40px;
+    }
+}
+@media (max-width: 350px) {
+    #location-svg {
+        width: 20px;
+        height: 20px;
+    }
+    #description-div {
+        margin-left: 70px;
+    }
+    #description-detail {
+        margin-left: 150px;
+    }
+    #footer-div-heading {
+        margin-left: 70px;
+    }
+    #footer-div-description {
+        margin-left: 40px;
+    }
+    #footer-div-link {
+        margin-left: 40px;
     }
 }
