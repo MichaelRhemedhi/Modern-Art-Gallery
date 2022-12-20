@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: calibri;
 }
 #header {
     position: relative;
@@ -229,6 +229,11 @@ body {
         padding-top: 50px;
         margin-right: 40px;
     }
+    #button-div {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }
 @media (max-width: 300px) {
     #location-svg {
@@ -236,10 +241,10 @@ body {
         height: 20px;
     }
     #description-div {
-        margin-left: 70px;
+        margin-left: 15px;
     }
     #description-detail {
-        margin-left: 150px;
+        margin-left: 95px;
     }
     #detail-two {
         width: 250px;
@@ -248,12 +253,17 @@ body {
         width: 250px;
     }
     #footer-div-heading {
-        margin-left: 70px;
+        margin-left: 15px;
     }
     #footer-div-description {
-        margin-left: 40px;
+        margin-left: 8px;
     }
     #footer-div-link {
-        margin-left: 40px;
+        margin-left: 8px;
+    }
+    #button-div {
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 }

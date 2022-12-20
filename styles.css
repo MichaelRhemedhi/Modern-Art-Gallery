@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    font-family: sans-serif;
+    font-family: calibri;
 }
 #navbar {
     display: flex;
@@ -24,7 +24,7 @@ body {
 #nav-heading {
     position: absolute;
     top: 20%;
-    left: -47%;
+    left: -36.5%;
     font-size: 50px;
     color: #ffffff;
 }
@@ -64,7 +64,6 @@ strong {
     cursor: pointer;
     border: none;
     font-size: 15px;
-    width: 180px;
     height: 40px;
     margin-top: 20px;
     border-radius: 5px;
@@ -622,7 +621,7 @@ strong {
 @media (max-width: 300px) {
     #nav-heading {
         font-size: 30px;
-        left: 11%;
+        left: 9.5%;
     }
     #div-link {
         display: flex;
