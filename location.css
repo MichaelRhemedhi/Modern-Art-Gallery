@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    font-family: calibri;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #header {
     position: relative;
@@ -93,6 +93,9 @@ body {
     margin-left: 100px;
     padding-top: 40px;
 }
+#footer-div-description p {
+    color: #444444;
+}
 #footer-div-link {
     display: flex;
     margin-left: 100px;
@@ -102,10 +105,13 @@ body {
 .location-footer-icon {
     padding: 5px;
 }
+.location-footer-image {
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(100deg) brightness(100%) contrast(100%);
+}
 .location-footer-image:hover {
-    background-color: #151515;
     transition-duration: 0.6s;
     border-radius: 2px;
+    filter: invert(10%) sepia(20%) saturate(80%) hue-rotate(200deg) brightness(50%) contrast(100%);
 }
 
 @media (max-width: 1000px) {
@@ -251,6 +257,7 @@ body {
     }
     #footer-div-description {
         width: 250px;
+        margin-left: 0px;
     }
     #footer-div-heading {
         margin-left: 15px;

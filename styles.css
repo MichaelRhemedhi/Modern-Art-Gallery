@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    font-family: calibri;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #navbar {
     display: flex;
@@ -24,7 +24,7 @@ body {
 #nav-heading {
     position: absolute;
     top: 20%;
-    left: -36.5%;
+    left: -48.2%;
     font-size: 50px;
     color: #ffffff;
 }
@@ -51,6 +51,7 @@ strong {
 }
 #nav-topic {
     width: 250px;
+    color: #444444;
 }
 #nav-link {
     text-decoration: none;
@@ -135,6 +136,7 @@ strong {
 }
 #first-grid-detail-content {
     width: 240px;
+    color: #444444;
 }
 #secondGridImage {
     width: 100%;
@@ -192,13 +194,10 @@ strong {
 .footer-icon {
     padding-left: 9px;
 }
-.footer-image:hover {
-    background-color: #d5966c;
-    transition-duration: 0.6s;
-    opacity: 3.5;
-    border-radius: 3px;
+.footer-image:hover,
+.footer-image:focus {
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
 }
-
 @media (max-width: 1000px) {
     #gridHead {
         display: grid;
@@ -572,7 +571,7 @@ strong {
 @media (max-width: 530px) {
     #nav-heading {
         font-size: 30px;
-        
+        left: 11%;
     }
     #div-link {
         display: flex;
@@ -585,6 +584,7 @@ strong {
 @media (max-width: 450px) {
     #nav-heading {
         font-size: 30px;
+        left: 10%;
     }
     #div-link {
         display: flex;
@@ -597,6 +597,7 @@ strong {
 @media (max-width: 400px) {
     #nav-heading {
         font-size: 30px;
+        left: 10%;
     }
     #div-link {
         display: flex;
@@ -609,6 +610,7 @@ strong {
 @media (max-width: 350px) {
     #nav-heading {
         font-size: 30px;
+        left: 10%;
     }
     #div-link {
         display: flex;
