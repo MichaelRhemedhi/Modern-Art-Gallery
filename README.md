@@ -5,14 +5,20 @@
 #This website showcase the design of beautiful portraits made by the Modern Art Gallery. 
 
 #This project was built using HTML5 and CSS3 and was deployed through git to github pages using the git commands below;
-
+[
 git init (initializing the git)
+
 git add . (adding all my files to be tracked)
+
 git status (to check if all the files added are tracked)
+
 git commit -m “gallery website” (committing to my files with the name “gallery website”)
+
 git remote add origin “link from github” (connecting my git to github servers remotely)
+
 git push origin -u main (uploading my files into my repository)
-NB: This is how I did mine despite the different methods of pushing your files on github repository.
+
+NB: This is how I did mine despite the different methods of pushing your files on github repository.]
 
 
 #Upon loading the website, a picture of a man and a woman staring at a portrait appears which covers the whole view height of the page.
