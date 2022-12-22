@@ -128,23 +128,23 @@ body {
     #footer {
         background-color: #d5966c;
         display: flex;
-        height: 350px;
+        height: 500px;
     }
     #footer-div-heading {
         font-size: 15px;
         margin-left: 30px;
         width: 350px;
-        padding-top: 30px;
+        padding-top: 100px;
     }
     #footer-div-description {
         width: 350px;
         margin-left: 0px;
-        padding-top: 40px;
+        padding-top: 110px;
     }
     #footer-div-link {
         display: flex;
         margin-left: 100px;
-        padding-top: 50px;
+        padding-top: 120px;
         margin-right: 40px;
     }
 }
@@ -160,23 +160,23 @@ body {
     #footer {
         background-color: #d5966c;
         display: flex;
-        height: 350px;
+        height: 500px;
     }
     #footer-div-heading {
         font-size: 11px;
         margin-left: 30px;
         width: 350px;
-        padding-top: 50px;
+        padding-top: 100px;
     }
     #footer-div-description {
         width: 430px;
         margin-left: 10px;
-        padding-top: 40px;
+        padding-top: 110px;
     }
     #footer-div-link {
         display: flex;
         margin-left: 100px;
-        padding-top: 50px;
+        padding-top: 120px;
         margin-right: 50px;
     }
 }
@@ -189,12 +189,21 @@ body {
     #footer {
         background-color: #d5966c;
         display: flex;
-        height: 350px;
+        height: 500px;
     }
     #footer-div-description {
         width: 430px;
         margin-left: 35px;
         padding-top: 40px;
+    }
+    #footer-div-heading {
+        padding-top: 100px;
+    }
+    #footer-div-description {
+        padding-top: 110px;
+    }
+    #footer-div-link {
+        padding-top: 120px; 
     }
 }
 
@@ -209,7 +218,16 @@ body {
     #footer {
         background-color: #d5966c;
         display: flex;
-        height: 350px;
+        height: 500px;
+    }
+    #footer-div-heading {
+        padding-top: 100px;
+    }
+    #footer-div-description {
+        padding-top: 110px;
+    }
+    #footer-div-link {
+        padding-top: 120px; 
     }
 }
 
@@ -231,7 +249,7 @@ body {
         background-color: #d5966c;
         display: flex;
         flex-direction: column;
-        height: 350px;
+        height: 500px;
     }
     #footer-div-heading {
         font-size: 15px;
@@ -256,6 +274,43 @@ body {
         left: 0;
     }
 }
+@media (max-width: 400px) {
+    #location-svg {
+        width: 20px;
+        height: 20px;
+    }
+    #description-div {
+        margin-left: 15px;
+    }
+    #description-detail {
+        margin-left: 10px;
+    }
+    #description-detail-head {
+        margin-left: 10px;
+    }
+    #detail-one {
+        margin-left: 10px;
+    }
+    #detail-two {
+        margin-left: 10px;
+        width: 250px;
+    }
+    #footer-div-heading {
+        margin-left: 10px;
+    }
+    #footer-div-description {
+        width: 250px;
+        margin-left: 10px;
+    }
+    #footer-div-link {
+        margin-left: 10px;
+    }
+    #button-div {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
 @media (max-width: 300px) {
     #location-svg {
         width: 20px;
@@ -265,23 +320,27 @@ body {
         margin-left: 15px;
     }
     #description-detail {
-        margin-left: 95px;
+        margin-left: 10px;
+    }
+    #description-detail-head {
+        margin-left: 10px;
+    }
+    #detail-one {
+        margin-left: 10px;
     }
     #detail-two {
+        margin-left: 10px;
         width: 250px;
-    }
-    #footer-div-description {
-        width: 250px;
-        margin-left: 0px;
     }
     #footer-div-heading {
-        margin-left: 15px;
+        margin-left: 10px;
     }
     #footer-div-description {
-        margin-left: 8px;
+        width: 250px;
+        margin-left: 10px;
     }
     #footer-div-link {
-        margin-left: 8px;
+        margin-left: 10px;
     }
     #button-div {
         position: absolute;

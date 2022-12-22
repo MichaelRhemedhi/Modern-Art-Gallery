@@ -606,6 +606,9 @@ strong {
         position: absolute;
         top: 120%
     }
+    #gridHead {
+        gap: 2.5rem;
+    }
 }
 @media (max-width: 350px) {
     #nav-heading {
@@ -619,6 +622,9 @@ strong {
         position: absolute;
         top: 120%
     }
+    #gridHead {
+        gap: 2.5rem;
+    }
 }
 @media (max-width: 300px) {
     #nav-heading {
@@ -631,6 +637,9 @@ strong {
         width: 200px;
         position: absolute;
         top: 120%
+    }
+    #gridHead {
+        gap: 2.5rem;
     }
 }
 /*reponsiveness for the max-heights*/
