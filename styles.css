@@ -33,7 +33,6 @@ body {
     line-height: 1em;
     color: #ffffff;
     mix-blend-mode: difference;
-    border: solid 1px yellow;
 }
 #nav-image {
     width: 40vw;
