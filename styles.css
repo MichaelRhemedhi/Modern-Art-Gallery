@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap');
 
 body {
     margin: 0;
@@ -23,14 +25,14 @@ body {
     left: 70%;
 }
 #nav-heading {
-    transform: scaleX(0.5);
     position: absolute;
-    top: 12.5%;
-    right: 31.5%;
-    font-size: 90px;
+    top: 15.5%;
+    right: 68.5%;
+    font-size: 60px;
     font-weight: 900;
-    height: 176px;
-    width: 750px;
+    font-family: 'Big Shoulders Display', cursive;;
+    height: 150px;
+    width: 350px;
     line-height: 1em;
     color: #ffffff;
     mix-blend-mode: difference;
@@ -44,7 +46,7 @@ body {
 #div-topicLink {
     position: relative;
     top: 0%;
-    left: 22.5%;u
+    left: 22.5%;
 }
 #div-link {
     display: flex;
@@ -57,6 +59,7 @@ body {
     width: 350px;
     color: #444444;
     font-size: 22px;
+    font-weight: 100;
 }
 #newButton {
     display: flex;
@@ -64,7 +67,7 @@ body {
     height: 72px;
     position: absolute;
     top: 130%;
-    right: 72%;
+    right: -30%;
 }
 #specialLink {
     width: 259px;
@@ -74,13 +77,22 @@ body {
     background-color: #000000;
     width: 204px;
     height: 72px;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 800;
-    font-family: 'outfit', sans-serif; 
     position: absolute;
     top: 0;
     right: 100%;
+}
+#loc-part p {
+    position: absolute;
+    left: 15.69%;
+    color: #ffffff;
+    width: 157px;
+    height: 24px;
+    letter-spacing: 3.64px;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 24px;
+    font-family: 'Big Shoulders Display', cursive; 
 }
 #loc-part:hover {
     background-color: #d5966c;
@@ -90,18 +102,13 @@ body {
     background-color: #000000;
     transition: 0.6s;
 }
-#loc-part p {
-    position: absolute;
-    left: 5%;
-    color: #ffffff;
-}
 #sign-part {
     background-color: #d5966c;
     width: 56px;
     height: 72px;
     position: absolute;
     top: 0;
-    left: 157%;
+    left: 78.5%;
 }
 .fa {
     position: absolute;
@@ -145,10 +152,11 @@ body {
     color: #ffffff;
 }
 #first-grid-detail-heading {
-    font-size: 30px;
+    font-size: 45px;
     font-weight: 900;
+    font-family: 'Big Shoulders Display', cursive; ;
     margin-bottom: 40px;
-    margin-top: 50px;
+    margin-top: 30px;
     width: 270px;
 }
 #first-grid-detail-content {
@@ -173,13 +181,15 @@ body {
     width: 200px;
     padding-left: 30px;
     padding-top: 30px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 900;
+    font-family: 'Big Shoulders Display', cursive;
 }
 #last-grid-content {
     width: 240px;
     padding-left: 30px;
     font-size: 20px;
+    font-family: 'Outfit', sans-serif;
 }
 #footer {
     background-color: #151515;
@@ -208,6 +218,8 @@ body {
     font-weight: bolder;
     width: 250px;
     margin-left: -2px;
+    margin-top: 15px;
+    font-family: 'Big Shoulders Display', cursive;
 }
 #secondFlex-description {
     width: 400px;
@@ -222,14 +234,14 @@ body {
 }
 @media (max-width: 1280px) {
     #nav-heading {
-        transform: scaleX(0.5);
         position: absolute;
-        top: 12.5%;
-        right: 27%;
-        font-size: 85px;
+        top: 15.5%;
+        right: 66.5%;
+        font-size: 60px;
         font-weight: 900;
-        height: 176px;
-        width: 750px;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 350px;
         line-height: 1em;
         color: #ffffff;
         mix-blend-mode: difference;
@@ -237,14 +249,14 @@ body {
 }
 @media (max-width: 1024px) {
     #nav-heading {
-        transform: scaleX(0.5);
         position: absolute;
-        top: 12.5%;
-        right: 13%;
-        font-size: 90px;
+        top: 15.5%;
+        right: 58.5%;
+        font-size: 60px;
         font-weight: 900;
-        height: 176px;
-        width: 750px;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 350px;
         line-height: 1em;
         color: #ffffff;
         mix-blend-mode: difference;
@@ -308,16 +320,17 @@ body {
         height: 328px;
     }
     #nav-heading {
-        font-weight: 900;
         position: absolute;
-        top: 20%;
-        left: 57%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        top: 15.5%;
+        right: -37.5%;
+        font-size: 60px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 350px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 690px;
-        height: 130px;
     }
     #nav-div {
         background-color: #ffffff;
@@ -374,16 +387,17 @@ body {
 
 @media (max-width: 950px) {
     #nav-heading {
-        font-weight: 900;
         position: absolute;
-        top: 20%;
-        left: 56%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        top: 20.5%;
+        right: -40.5%;
+        font-size: 60px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 350px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 690px;
-        height: 130px;
     }
     #div-link {
         display: flex;
@@ -410,7 +424,17 @@ body {
 }
 @media (max-width: 912px) {
     #nav-heading {
-        left: 55%;
+        position: absolute;
+        top: 23.5%;
+        right: -43.5%;
+        font-size: 60px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 350px;
+        line-height: 1em;
+        color: #000000;
+        mix-blend-mode: darken;
     }
     #nav-div {
         background-color: #ffffff;
@@ -418,16 +442,17 @@ body {
 }
 @media (max-width: 900px) {
     #nav-heading {
-        font-weight: 900;
         position: absolute;
-        top: 20%;
-        left: 54%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        top: 23.5%;
+        right: -43.5%;
+        font-size: 60px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 350px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 690px;
-        height: 130px;
     }
     #footer-div {
         display: flex;
@@ -452,6 +477,9 @@ body {
     }
 }
 @media (max-width: 868px) {
+    #nav-heading {
+        right: -46%;
+    }
     #firstFlex-description {
         font-size: 30px;
         font-weight: bolder;
@@ -465,16 +493,17 @@ body {
 }
 @media (max-width: 850px) {
     #nav-heading {
-        font-weight: 900;
         position: absolute;
-        top: 20%;
-        left: 53%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        top: 23.5%;
+        right: -47.5%;
+        font-size: 60px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 350px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 690px;
-        height: 130px;
     }
     #gridHead {
         display: grid;
@@ -511,7 +540,7 @@ body {
 }
 @media (max-width: 820px) {
     #nav-heading {
-        left: 50%;
+        left: 84.5%;
     }
     #nav-div {
         background-color: #ffffff;
@@ -519,16 +548,17 @@ body {
 }
 @media (max-width: 800px) {
     #nav-heading {
-        font-weight: 900;
         position: absolute;
-        top: 20%;
-        left: 51%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        top: 23.5%;
+        right: -47.5%;
+        font-size: 60px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 350px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 690px;
-        height: 130px;
     }
     #footer-div {
         display: flex;
@@ -548,16 +578,17 @@ body {
 }
 @media (max-width: 768px) {
     #nav-heading {
-        font-weight: 900;
         position: absolute;
-        top: 10%;
-        left: 51%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        top: 10.5%;
+        left: 83.5%;
+        font-size: 60px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 350px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 650px;
-        height: 130px;
     }
     #div-link {
         display: flex;
@@ -618,26 +649,28 @@ body {
 }
 @media (max-width: 750px) {
     #nav-heading {
-        font-weight: 900;
         position: absolute;
-        top: 10%;
-        left: 52%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        top: 10.5%;
+        left: 83.5%;
+        font-size: 55px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 270px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 600px;
-        height: 130px;
     }
-    #nav-topic {
-        width: 275px;
-    }
+    /* #nav-topic {
+        width: 250px;
+        right: 40%;
+    } */
     #div-link {
         display: flex;
         flex-direction: column;
         width: 200px;
         position: absolute;
-        top: 35%
+        top: 35%;
     }
     #gridHead {
         display: grid;
@@ -674,7 +707,7 @@ body {
     #last-grid-heading {
         width: 200px;
         padding-left: 15px;
-        padding-top: 30px;
+        padding-top: 10px;
     }
     #last-grid-content {
         width: 230px;
@@ -707,16 +740,17 @@ body {
 }
 @media (max-width: 700px) {
     #nav-heading {
-        font-weight: 900;
         position: absolute;
-        top: 10%;
-        left: 53%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        top: 10.5%;
+        left: 83.5%;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 240px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 550px;
-        height: 130px;
     }
     #footer-div {
         display: flex;
@@ -733,6 +767,9 @@ body {
         margin-left: 150px;
         font-size: 20px;
     }
+    #nav-topic {
+        width: 250px;
+    }
 }
 @media (max-width: 660px) {
     #firstFlex-description {
@@ -745,7 +782,7 @@ body {
     #gridHead {
         display: flex;
         flex-direction: column;
-        margin-top: 1100px;
+        margin-top: 1000px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 600px;
@@ -777,16 +814,17 @@ body {
         width: 300px;
     }
     #nav-heading {
-        font-weight: 900;
         position: absolute;
         top: 100%;
-        left: -11%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        left: 10.5%;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 240px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 550px;
-        height: 130px;
     }
     #nav-div {
         display: flex;
@@ -810,7 +848,7 @@ body {
         flex-direction: column;
         width: 200px;
         position: absolute;
-        top: 130%;
+        top: 125%;
     }
     #div-topicLink {
         position: relative;
@@ -847,16 +885,17 @@ body {
 
 @media (max-width: 600px) {
     #nav-heading {
-        font-weight: 900;
         position: absolute;
         top: 100%;
-        left: -13%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        left: 10.5%;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 240px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 550px;
-        height: 130px;
     }
     #div-link {
         display: flex;
@@ -891,23 +930,24 @@ body {
 
 @media (max-width: 580px) {
     #nav-heading {
-        font-weight: 900;
         position: absolute;
         top: 100%;
-        left: -14%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        left: 10.5%;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 240px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 550px;
-        height: 130px;
     }
     #div-link {
         display: flex;
         flex-direction: column;
         width: 200px;
         position: absolute;
-        top: 130%
+        top: 125%
     }
     #footer-div {
         display: flex;
@@ -948,28 +988,39 @@ body {
 }
 @media (max-width: 540px) {
     #nav-heading {
-        left: -15.5%;
+        position: absolute;
+        top: 100%;
+        left: 10.5%;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 240px;
+        line-height: 1em;
+        color: #000000;
+        mix-blend-mode: darken;
     }
 }
 @media (max-width: 530px) {
     #nav-heading {
-        font-weight: 900;
         position: absolute;
         top: 100%;
-        left: -16%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        left: 10.5%;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 240px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 550px;
-        height: 130px;
     }
     #div-link {
         display: flex;
         flex-direction: column;
         width: 200px;
         position: absolute;
-        top: 130%
+        top: 125%
     }
     #first-grid-detail-heading {
         font-size: 30px;
@@ -980,26 +1031,27 @@ body {
         height: 500px;
     }
     #nav-heading {
-        font-weight: 900;
         position: absolute;
-        top: 80%;
-        left: -20%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        top: 75%;
+        left: 10.5%;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 240px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 550px;
-        height: 130px;
     }
     #div-link {
         display: flex;
         flex-direction: column;
         width: 200px;
         position: absolute;
-        top: 110%
+        top: 100%
     }
     #gridHead {
-        margin-top: 900px;
+        margin-top: 800px;
     }
     #first-grid-detail-heading {
         font-size: 30px;
@@ -1007,16 +1059,17 @@ body {
 }
 @media (max-width: 443px) {
     #nav-heading {
-        font-weight: 900;
         position: absolute;
-        top: 80%;
-        left: -22%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        top: 75%;
+        left: 10.5%;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 240px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 550px;
-        height: 130px;
     }
     #nav-image {
         width: 100vw;
@@ -1045,16 +1098,17 @@ body {
         margin-left: -45px;
     }
     #nav-heading {
-        font-weight: 900;
         position: absolute;
-        top: 70%;
-        left: -23%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        top: 75%;
+        left: 10.5%;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 240px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 550px;
-        height: 130px;
     }
     #div-link {
         display: flex;
@@ -1069,26 +1123,27 @@ body {
 }
 @media (max-width: 414px) {
     #nav-heading {
-        font-weight: 900;
         position: absolute;
         top: 55%;
-        left: -23%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        left: 10.5%;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 240px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 550px;
-        height: 130px;
     }
     #div-link {
         display: flex;
         flex-direction: column;
         width: 200px;
         position: absolute;
-        top: 80%
+        top: 73%
     }
     #gridHead {
-        margin-top: 700px;
+        margin-top: 620px;
     }
     #footer {
         height: 400px;
@@ -1096,26 +1151,27 @@ body {
 }
 @media (max-width: 400px) {
     #nav-heading {
-        font-weight: 900;
         position: absolute;
-        top: 60%;
-        left: -25%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        top: 57%;
+        left: 10.5%;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 240px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 550px;
-        height: 130px;
     }
     #div-link {
         display: flex;
         flex-direction: column;
         width: 200px;
         position: absolute;
-        top: 85%;
+        top: 75%;
     }
     #gridHead {
-        margin-top: 700px;
+        margin-top: 600px;
         gap: 1.5rem;
     }
 }
@@ -1124,14 +1180,23 @@ body {
         height: 240px;
     }
     #nav-heading {
-        top: 230px;
-        left: -27%;
+        position: absolute;
+        top: 32%;
+        left: 10.5%;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 240px;
+        line-height: 1em;
+        color: #000000;
+        mix-blend-mode: darken;
     }
     #div-link {
-        top: 414px;
+        top: 370px;
     }
     #gridHead {
-        margin-top: 600px;
+        margin-top: 560px;
         gap: 1rem;
     }
     #first-grid-detail-content {
@@ -1149,8 +1214,17 @@ body {
 }
 @media (max-width: 360px) {
     #nav-heading {
-        top: 30%;
-        left: -28%;
+        position: absolute;
+        top: 32%;
+        left: 10.5%;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 240px;
+        line-height: 1em;
+        color: #000000;
+        mix-blend-mode: darken;
     }
     #secondFlex-description {
         width: 250px;
@@ -1162,41 +1236,43 @@ body {
 }
 @media (max-width: 350px) {
     #nav-heading {
-        font-weight: 900;
         position: absolute;
-        top: 33%;
-        left: -30%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        top: 32%;
+        left: 10.5%;
+        font-size: 50px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 240px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 550px;
-        height: 130px;
     }
     #div-link {
         display: flex;
         flex-direction: column;
         width: 200px;
         position: absolute;
-        top: 65%
+        top: 55%;
     }
     #gridHead {
-        margin-top: 630px;
+        margin-top: 550px;
         gap: 1.5rem;
     }
 }
 @media (max-width: 320px) {
     #nav-heading {
-        font-weight: 900;
         position: absolute;
-        top: 31%;
-        left: -33%;
-        font-size: 70px;
-        line-height: 3.5rem;
-        color: #151515;
+        top: 36%;
+        left: 10.5%;
+        font-size: 40px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 240px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 550px;
-        height: 130px;
     }
     #div-link {
         display: flex;
@@ -1206,7 +1282,7 @@ body {
         top: 57%
     }
     #gridHead {
-        margin-top: 570px;
+        margin-top: 550px;
     }
     #first-grid-detail-content {
         width: 230px;
@@ -1234,7 +1310,6 @@ body {
         background-color: #000000;
         width: 150px;
         height: 52px;
-        font-size: 20px;
         line-height: 24px;
         font-weight: 800;
         font-family: 'outfit', sans-serif; 
@@ -1244,9 +1319,10 @@ body {
     }
     #loc-part p {
         position: absolute;
-        top: -35%;
+        top: -9%;
         left: 10%;
         color: #ffffff;
+        font-size: 18px;
     }
     #sign-part {
         background-color: #d5966c;
@@ -1259,17 +1335,27 @@ body {
 }
 @media (max-width: 300px) {
     #nav-heading {
-        font-size: 30px;
-        left: 9.5%;
+        position: absolute;
+        top: 32%;
+        left: 10.5%;
+        font-size: 40px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 240px;
+        line-height: 1em;
+        color: #000000;
+        mix-blend-mode: darken;
     }
     #div-link {
         display: flex;
         flex-direction: column;
         width: 200px;
         position: absolute;
-        top: 60%;
+        top: 50%;
     }
     #gridHead {
+        margin-top: 500px;
         gap: 1.5rem;
     }
     #firstFlex-description {
@@ -1299,16 +1385,17 @@ body {
 }
 @media (max-width: 280px) {
     #nav-heading {
-        font-weight: 900;
         position: absolute;
-        top: 31%;
-        left: -31%;
-        font-size: 55px;
-        line-height: 3.5rem;
-        color: #151515;
+        top: 32%;
+        left: 10.5%;
+        font-size: 40px;
+        font-weight: 900;
+        font-family: 'Big Shoulders Display', cursive;;
+        height: 150px;
+        width: 240px;
+        line-height: 1em;
+        color: #000000;
         mix-blend-mode: darken;
-        width: 460px;
-        height: 130px;
     }
 }
 /*reponsiveness for the max-heights*/
