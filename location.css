@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap');
 
 body {
     margin: 0;
@@ -27,10 +30,6 @@ body {
     background-color: #000000;
     width: 204px;
     height: 72px;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 800;
-    font-family: 'outfit', sans-serif; 
     position: absolute;
     top: 0;
     left: 100%;
@@ -45,8 +44,13 @@ body {
 }
 #loc-part p {
     position: absolute;
-    left: 5%;
+    left: 12%;
     color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 800;
+    font-family: 'Big Shoulders Display', cursive;
+    letter-spacing: 3.64px;
 }
 #sign-part {
     background-color: #d5966c;
@@ -79,13 +83,18 @@ body {
 }
 #description-detail {
     width: 400px;
-    margin-left: 350px;
+    margin-left: 390px;
 }
 #description-detail-head {
+    font-family: 'Big Shoulders Display', cursive;
     color: #d5966c;
 }
+#detail-one, #detail-two {
+    font-family: 'outfit', sans-serif;
+}
 #description-div-head {
-    font-size: 45px;
+    font-size: 60px;
+    font-family: 'Big Shoulders Display', cursive;
 }
 #footer {
     background-color: #d5966c;
@@ -96,11 +105,13 @@ body {
     margin-left: 156px;
     width: 300px;
     padding-top: 30px;
+    font-family: 'Big Shoulders Display', cursive;
 }
 #footer-div-description {
     width: 430px;
     margin-left: 64px;
     padding-top: 40px;
+    font-family: 'outfit', sans-serif;
 }
 #footer-div-description p {
     color: #444444;
@@ -149,7 +160,7 @@ body {
 @media (max-width: 1024px) {
     #description-detail {
         width: 400px;
-        margin-left: 165px;
+        margin-left: 195px;
     }
 }
 @media (max-width: 1000px) {
@@ -276,6 +287,9 @@ body {
     }
     #footer-div-heading {
         margin-left: 39px;
+    }
+    #description-detail {
+        margin-left: 135px;
     }
     #detail-two {
         width: 350px;
